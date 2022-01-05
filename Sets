@@ -59,5 +59,6 @@ print(set1 - set2)
 print(set1.symmetric_difference(set2))
 print(set1 ^ set2)
 
+print({1,2}=={2,1}) #Prints true as order doesn't matter in sets.
 
 # There is also difference_update, symmetric_difference_update, and intersection_update but not union_update. (Saves memory) We can also do set1 = set1.difference(set2), though.
